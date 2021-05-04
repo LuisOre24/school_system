@@ -113,9 +113,35 @@ class Docente:
             print(f'Ocurrio un inconveniente al leer el archivo {str(ex)}')
         else:
             file.close()
+            
 
+################################### PENDIENTE POR RESOLVER ########################################
     def deleteTeacher(self):
-        file = len(registro_docente['registro_docentes'])
-        #for item in range(file):
-        print(registro_docente['registro_docentes'].index())
-        print(f'{file}')
+        #file = len(registro_docente['registro_docentes'])
+        ##for item in range(file):
+        #print(registro_docente['registro_docentes']())
+        #print(f'{file}')
+
+        try:
+            file = open("registro_docentes.json", "r")
+            registro_docente['registro_docentes'] = load(file)            
+            
+            x = 0
+            #for key , value in registro_docente.items():
+            #    print(f'{key, value}\n')
+            #    x += 1
+            #    print(str(x))
+            print(registro_docente['registro_docentes'])
+
+            registro = registro_docente['registro_docentes']
+            data = dict(registro)
+
+            print(type(data))
+
+            file.close()
+        except FileNotFoundError:
+            print("No existe registro de docentes creado, se procedera a crear registro")
+            file = open("registro_docentes.json", "w")
+            file.close()
+        except decoder.JSONDecodeError:
+            print("No existe docentes registrados")
