@@ -1,0 +1,37 @@
+[
+    {
+        "id": "d043e147-1d31-4160-8f6c-5602d0932f5f",
+        "nombres": "Ore Cardenas Luis Enrique",
+        "notas": [
+            13,
+            14
+        ],
+        "promedio": 27.0,
+        "nota_maxima": 14.0,
+        "nota_minima": 13.0
+    },
+    {
+        "id": "e9053004-7f9c-4dc1-bcbe-cdb41895dbd6",
+        "nombres": "Ore Cardenas Luis",
+        "notas": [
+            13,
+            14
+        ],
+        "promedio": 13.5,
+        "nota_maxima": 14.0,
+        "nota_minima": 13.0
+    },
+    {
+        "id": "84d3cfc9-4320-48d3-bd36-e35249790fa8",
+        "nombres": "Luis",
+        "notas": [
+            12.0,
+            13.0,
+            14.0
+        ],
+        "promedio": 13.0,
+        "nota_maxima": 14.0,
+        "nota_minima": 12.0
+    }
+
+]

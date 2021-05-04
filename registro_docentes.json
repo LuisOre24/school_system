@@ -1,0 +1,14 @@
+[
+    {
+        "id": "89a01c59-a834-4f67-a8cf-d9013e974867",
+        "nombres_docente": "luchito",
+        "edad_docente": "23",
+        "dni_docente": "213423424"
+    },
+    {
+        "id": "95cd823a-8ce8-4766-b9e7-83189ad19f8a",
+        "nombres_docente": "fulano",
+        "edad_docente": "32",
+        "dni_docente": "34343434"
+    }
+]
